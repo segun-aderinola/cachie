@@ -37,8 +37,10 @@ npm install
 
 3. Use the following endpoints:
 
-- `POST /search`: Accepts search queries. Example payload: `{"search_query":"the quick brown fox jumps over the lazy dog"}`
-- `GET /analyse`: Accepts analysis tokens. Example query parameter: `analysis_token=dGhlIHF1aWNrLHRoZQ==`
+- POST /search: Accepts search queries.
+Example payload: `{"search_query":"the quick brown fox jumps over the lazy dog"}`
+- GET /analyse: Accepts analysis tokens.
+Example query parameter: `https://localhost:3030/analysis_token=dGhlIHF1aWNrLHRoZQ==`
 
 ## Running Tests
 
@@ -50,5 +52,5 @@ npx jest test/queryService.test.js
 
 ## Implementation Notes
 
-- This implementation assumes that the in-memory cache analytics engine stores data in a JavaScript object (Map).
+- The implementation for the in-memory cache analytics engine stores data in a JavaScript object (Map).
 - ...
