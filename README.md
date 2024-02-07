@@ -38,9 +38,15 @@ npm install
 3. Use the following endpoints:
 
 - POST /search: Accepts search queries.
-Example payload: `{"search_query":"the quick brown fox jumps over the lazy dog"}`
+Example payload:
+{
+"search_query":"the quick brown fox jumps over the lazy dog"
+}
+
 - GET /analyse: Accepts analysis tokens.
-Example query parameter: `https://localhost:3030/analysis_token=dGhlIHF1aWNrLHRoZQ==`
+Example query parameter:
+https://localhost:3030/analysis_token=dGhlIHF1aWNrLHRoZQ==
+### Note: the analysis_token must be base64 encoded.
 
 ## Running Tests
 
