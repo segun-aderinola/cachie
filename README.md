@@ -14,7 +14,7 @@ This project implements a REST API server for Cachie, an in-memory cache analyti
 
 1. Clone the repository:
 
-git clone https://github.com/your-username/cachie-api.git
+git clone https://github.com/segun-aderinola/cachie.git
 
 
 2. Navigate to the project directory:
